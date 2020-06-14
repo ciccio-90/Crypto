@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dot.Net.Infrastructure">
+      <HintPath>../Dot.Net.Infrastructure/bin/Debug/netstandard2.1/Dot.Net.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

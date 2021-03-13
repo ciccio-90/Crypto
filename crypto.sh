@@ -1,3 +1,3 @@
 #!/bin/sh
 
-dotnet "/home/francesco/Progetti/Crypto/bin/Debug/netcoreapp3.0/Crypto.dll" "$@"
+./bin/Debug/net5.0/Crypto "$@"

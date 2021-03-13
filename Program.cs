@@ -1,9 +1,9 @@
 ﻿using System;
-using Dot.Net.Infrastructure.Helpers;
+using Infrastructure.Helpers;
 
 namespace Crypto
 {
-    class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
@@ -16,6 +16,10 @@ namespace Crypto
             {
                 case "encrypt":
                     Console.WriteLine(CryptoHelper.Encrypt(args[1]));
+
+                    break;
+                case "encrypt-pwd":
+                    Console.WriteLine($"<pwd>{CryptoHelper.Encrypt(args[1])}</pwd>");
 
                     break;
                 case "decrypt":

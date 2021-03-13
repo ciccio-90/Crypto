@@ -5,7 +5,7 @@ namespace Crypto
 {
     public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             if (args == null || (args != null && args.Length != 2))
             {

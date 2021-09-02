@@ -1,3 +1,3 @@
 # Crypto
 
-A .NET Core crypting/decrypting manager.
+A .NET crypting/decrypting manager.

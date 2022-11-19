@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./bin/Debug/net6.0/Crypto "$@"
+./bin/Debug/net7.0/Crypto "$@"

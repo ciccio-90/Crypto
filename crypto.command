@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./bin/Debug/net7.0/Crypto "$@"
+./bin/Debug/net8.0/Crypto "$@"
